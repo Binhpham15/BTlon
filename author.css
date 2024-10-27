@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+img {
+    width: 120px; 
+    margin-left: 100px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6255a3;
+}
+
+.grid .book {
+    color: #66FF99;
+}
+
+.grid .place {
+    color: #FFFFFF;
+}
+
+nav a {
+    color: #FFFFFF;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+.sign-in {
+    margin-right: 100px;
+    background-color: #66FF99;
+    color: #333;
+    font-size: 18px;
+    font-weight: 570;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    background-color: #000; 
+    color: #fff;             
+}
+
+.search-section {
+    background-color: #6255a3;
+    padding: 90px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.search-section h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 500px;
+}
+
+.search-bar button {
+    position: absolute;
+    top: 6px;
+    right: 515px;
+    padding: 15px;
+    background-color: #6255a3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #000;
+    color: #fff; 
+}
+
+.authors-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+.author-photo {
+    height: 200px;
+    background-color: #DDD;
+    border-radius: 10px;
+}
+
+.newsletter {
+    width: 100%;
+    background-color: #FFD5CD;
+    padding: 180px 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 50px;
+}
+
+.subscribe-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.subscribe-bar input {
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    width: 500px;
+}
+
+.subscribe-bar button {
+    position: absolute;
+    padding: 15px;
+    top: 4px;
+    right: 515px;
+    background-color: #6255a3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.subscribe-bar button:hover {
+    background-color: #000;
+    color: #fff;
+
+}
+
+footer {
+    width: 100%;
+    background-color: #6255a3;
+    color: #FFFFFF;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 200px;
+}
+
+.footer-links div {
+    line-height: 40px;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
