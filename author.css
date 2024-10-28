@@ -9,7 +9,7 @@ main {
     width: 100%;
 }
 
-img {
+.logo {
     width: 120px; 
     margin-left: 100px;
 }
@@ -28,14 +28,6 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #6255a3;
-}
-
-.grid .book {
-    color: #66FF99;
-}
-
-.grid .place {
-    color: #FFFFFF;
 }
 
 nav a {
