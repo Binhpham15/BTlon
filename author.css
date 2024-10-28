@@ -111,13 +111,14 @@ nav a:hover {
 
 .authors-gallery {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    padding: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 180px;
+    padding: 150px;
     background-color: #FFFFFF;
 }
 
 .author-photo {
+    width: 129px;
     height: 200px;
     background-color: #DDD;
     border-radius: 10px;
